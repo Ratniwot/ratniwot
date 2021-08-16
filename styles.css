@@ -1,0 +1,70 @@
+
+body {
+    background-color:snow;
+    font-size: 1.5rem;
+    margin: 0%;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    border: 1px red solid; 
+
+    
+}
+.section-1  {
+    font-family: "Lora" , serif;
+    text-align: center;
+    margin: 0;
+    color: green;
+
+}
+.sectionh1 {
+    margin-bottom: 0;
+
+}
+
+.sectionp {
+    margin-top: 0;
+    font-size: 1rem;
+}
+
+.section-2{
+    text-align: center;
+    font-family: "Ubuntu" , sans-serif;
+    padding-bottom: 5%;
+}
+.wild {
+
+    width:95%;
+    padding:0;
+}
+.navbar{
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0%;
+    text-align: center;
+}
+.home{
+    width: 4%;
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+.contact{
+    width: 4%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 0%;
+    padding-top: 0%;
+
+}
+
+ @media (max-width:400px) {
+     .sectionh1{
+         font-size: 1.1rem;
+     }
+
+     .sectionp{
+        font-size: 0.5rem;
+    }
+ }
